@@ -123,6 +123,10 @@ span {
   font-size: 15px;
   font-weight: 400;
 }
+h2.text {
+  padding-top: 40px;
+  padding-left: 240px;
+}
 .btn1 {
   width: 100px;
   padding: 7px 4px 7px 4px;
