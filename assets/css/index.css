@@ -236,6 +236,7 @@ span {
   width: auto;
   height: 20px;
   padding: 8px;
+  border-radius: 4px;
 }
 .rett {
   display: flex;
