@@ -1,0 +1,272 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+main {
+  display: flex;
+}
+header {
+  z-index: 1;
+  position: sticky;
+  background-color: #ffc017;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 15%;
+  border-bottom: 1px solid black;
+  top: 0px;
+}
+.content {
+  background-color: #ffc017;
+}
+header ul li {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  display: inline-block;
+  padding-left: 10px;
+  font-size: 14px;
+}
+nav {
+  justify-content: right;
+  display: flex;
+}
+header nav {
+  margin-right: auto;
+}
+h1 {
+  font-size: 106px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+h1 + p {
+  font-family: "Roboto", sans-serif;
+
+  font-weight: 400;
+  font-size: 24px;
+}
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  margin-top: -10;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+
+  margin-top: -10px;
+  /* padding-left: 50px; */
+}
+h2 + p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  /* padding-left: 50px; */
+  font-weight: 400;
+  font-size: 13px;
+  color: #6b6b6b;
+}
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  /*  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-weight: 500;
+  font-size: 13px;
+  display: inline-block;
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  display: inline-block;
+  float: left;
+}
+.logo {
+  display: inline-block;
+  padding-left: 65px;
+}
+.content {
+  gap: 80px;
+  padding-left: 65px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.content2 {
+  width: 600px;
+  margin-right: 0px;
+}
+.content1 {
+  margin-top: -80px;
+  width: 580px;
+  align-self: center;
+}
+.btn2 {
+  width: 160px;
+  padding: 7px 4px 7px 4px;
+  border-radius: 60px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.btn2 {
+  width: 160px;
+  padding: 7px 4px 7px 4px;
+  border-radius: 60px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+.btn1 {
+  width: 100px;
+  padding: 7px 4px 7px 4px;
+  border-radius: 60px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+}
+.maincontent {
+  padding-top: 40px;
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid grey;
+}
+.card1 {
+  display: flex;
+
+  flex-direction: column;
+  width: 320px;
+}
+.card2 {
+  display: flex;
+
+  flex-direction: column;
+  width: 320px;
+}
+.card3 {
+  display: flex;
+
+  flex-direction: column;
+  width: 320px;
+}
+.text1 {
+  display: flex;
+  align-items: center;
+}
+.text1 span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 35px;
+  color: #6b6b6b;
+  opacity: 0.5;
+}
+.span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 35px;
+  color: #6b6b6b;
+  opacity: 0.5;
+}
+.data {
+  display: flex;
+}
+.ora {
+  display: flex;
+}
+.paragrafo {
+  display: flex;
+  justify-content: space-around;
+}
+.lateral {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.star {
+  vertical-align: middle;
+}
+.box1 {
+  padding-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.img1 {
+  vertical-align: middle;
+}
+.testo1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  padding-left: 50px;
+  padding-top: 20px;
+  width: 500px;
+}
+
+.last {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  display: flex;
+  font-weight: 300;
+
+  gap: 10px;
+}
+.segna {
+  vertical-align: middle;
+  margin-left: auto;
+  padding-right: 10px;
+}
+.lateraldx {
+  width: 400px;
+  padding-top: 50px;
+  gap: 20px;
+  padding-left: 70px;
+  text-align: center;
+}
+.rettangoli {
+  border: 1px solid grey;
+  width: auto;
+  height: 20px;
+}
+.rett {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  color: #6b6b6b;
+  border-bottom: 1px solid grey;
+}
+.rett2 {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  color: #6b6b6b;
+}
+.rett1 {
+  padding-top: 5px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.h2ini {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  padding-left: 30px;
+}
+.img2 {
+  border-radius: 50%;
+}
+.btn5 {
+  border: none;
+  padding: 5px 5px 5px 5px;
+  border-radius: 60px;
+}
