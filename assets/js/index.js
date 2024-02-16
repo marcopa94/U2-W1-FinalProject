@@ -1,8 +1,8 @@
 const content = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
-  if (window.scrollY > 500) {
-    content.style.backgroundColor = "white"; // Cambia il colore come preferisci
+  if (window.scrollY > 450) {
+    content.style.backgroundColor = "white";
   } else {
     content.style.backgroundColor = "#ffc017";
   }
