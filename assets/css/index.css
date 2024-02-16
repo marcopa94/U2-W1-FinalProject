@@ -55,7 +55,7 @@ h2 {
   font-weight: 100;
   margin-top: -10;
   font-size: 15px;
-  font-weight: 700;
+  font-weight: 900;
   line-height: 20px;
 
   margin-top: -10px;
@@ -73,7 +73,7 @@ h4 {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   /*  font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif; */
-  font-weight: 500;
+  font-weight: 600;
   font-size: 13px;
   display: inline-block;
 }
@@ -89,8 +89,9 @@ span {
   padding-left: 65px;
 }
 .content {
+  padding-left: 5%;
   gap: 80px;
-  padding-left: 65px;
+
   flex-direction: row;
   display: flex;
   justify-content: space-between;
@@ -100,6 +101,7 @@ span {
   margin-right: 0px;
 }
 .content1 {
+  padding-left: 90px;
   margin-top: -80px;
   width: 580px;
   align-self: center;
@@ -163,7 +165,7 @@ span {
   font-weight: 100;
   font-size: 35px;
   color: #6b6b6b;
-  opacity: 0.5;
+  opacity: 0.1;
   padding-top: 10px;
   margin-right: 19px;
 }
@@ -180,7 +182,7 @@ span {
 .lateral {
   display: flex;
   flex-direction: column;
-  width: 60%;
+  width: 65%;
 }
 .star {
   vertical-align: middle;
@@ -197,9 +199,9 @@ span {
 .testo1 {
   font-family: "Roboto", sans-serif;
   font-weight: 100;
-  padding-left: 50px;
+  padding-left: 140px;
   padding-top: 20px;
-  width: 500px;
+  width: 520px;
 }
 
 .last {
@@ -208,8 +210,9 @@ span {
   font-size: 13px;
   display: flex;
   font-weight: 300;
-
+  align-items: center;
   gap: 10px;
+  color: gray;
 }
 .segna {
   vertical-align: middle;
@@ -266,6 +269,10 @@ span {
 }
 .card {
   display: flex;
-  width: 300px;
+  width: 320px;
   flex-direction: column;
+}
+.data,
+.ora {
+  color: #6b6b6b;
 }
