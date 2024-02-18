@@ -2,6 +2,7 @@
 *::after {
   box-sizing: border-box;
 }
+
 body {
   margin: 0px;
 }
@@ -9,6 +10,7 @@ main {
   display: flex;
 }
 header {
+  transition: background-color 0.3s ease;
   z-index: 1;
   position: sticky;
   background-color: #ffc017;
